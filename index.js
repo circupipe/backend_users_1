@@ -7,7 +7,7 @@ app.use(express.json());// Genera los bodys
 
 app.get('/', (req, res) => {
     res.send(`
-        <h1 style="color:red;" >Dice Leo que se quiere conectar al Mondongo</h1>
+        <h1 style="color:red;" >Dice Leo que se quiere conectar al MongoDB</h1>
         <a href='http://localhost:3020/users'>Usuarios</a>
     `);
 });

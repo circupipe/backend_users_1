@@ -34,5 +34,6 @@ export async function createUser(body) {
 
 export async function deleteUser(username) {
     const response = await Users.DeleteUser(username);
+   
     return response;
 }
