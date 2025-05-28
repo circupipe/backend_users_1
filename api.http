@@ -1,0 +1,10 @@
+POST http://localhost:3020/users
+Content-Type: application/json
+
+{
+    "username": "usuario1",
+    "password": "contraseña1"
+}
+
+### Delete user
+DELETE http://localhost:3020/users/usuario1
